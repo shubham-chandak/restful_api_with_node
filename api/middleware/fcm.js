@@ -4,7 +4,7 @@ admin.initializeApp({
     credential: admin.credential.cert({
         projectId: process.env.FCM_PROJECT_ID,
         clientEmail: process.env.FCM_CLIENT_EMAIL,
-        private_key: process.env.FCM_PRIVATE_KEY
+        privateKey: process.env.FCM_PRIVATE_KEY
     }),
     databaseURL: process.env.FCM_DATABASE_URL
 })
